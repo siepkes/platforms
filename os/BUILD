@@ -33,6 +33,12 @@ constraint_value(
     constraint_setting = ":os",
 )
 
+
+constraint_value(
+    name = "illumos",
+    constraint_setting = ":os",
+)
+
 constraint_value(
     name = "android",
     constraint_setting = ":os",
